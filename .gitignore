@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Secrets and Config
+.env
+
+# Data (Optional: ignore large raw data files)
+data/raw/thumbnails/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+.env
+.venv/
+__pycache__/
