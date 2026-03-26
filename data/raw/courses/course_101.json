@@ -1,8 +1,0 @@
-{
-  "course_id": 101,
-  "title": "Unstructured Data Foundations",
-  "instructor": "Dr. Dželila Mehanović",
-  "category": "Data Science",
-  "enrollment_count": 450,
-  "description": "Learn to process text, images, and video in Python."
-}

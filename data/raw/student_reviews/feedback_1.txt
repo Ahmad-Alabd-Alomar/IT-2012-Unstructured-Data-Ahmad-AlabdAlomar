@@ -1,3 +1,0 @@
-This online course on unstructured data is fantastic! The labs are very practical. 
-I am currently learning how to set up my own Python pipelines and use logging to 
-track my progress. Highly recommended for any aspiring data worker.
