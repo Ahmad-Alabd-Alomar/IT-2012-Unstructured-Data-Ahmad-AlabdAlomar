@@ -12,6 +12,9 @@ from src.parsing.doc_parsers import extract_from_pdf, extract_from_word, extract
 from src.scraping.scraper import scrape_books_catalog
 from src.scraping.dynamic_scraper import scrape_dynamic_quotes
 from src.ocr.ocr_utils import process_image, process_scanned_pdf
+from src.image_processing.downloader import download_images
+from src.image_processing.batch import batch_process_images
+from src.image_processing.exif_utils import extract_exif
 
 load_dotenv()
 
@@ -127,8 +130,24 @@ def process_ocr():
                     }
                     save_to_mongo(ocr_record, "ocr_data")
 
+# --- LAB 6: Image Processing Pipeline ---
+def process_images():
+    logging.info("--- Starting Image Processing Pipeline ---")
+    
+    # 1. Test EXIF extraction
+    exif_sample = "data/raw/exif_samples/my_photo.jpg"
+    if os.path.exists(exif_sample):
+        logging.info("Extracting EXIF data from sample photo...")
+        extract_exif(exif_sample)
+    
+    # 2. Download Images from MongoDB records
+    downloaded_files = download_images(limit=100)
+    
+    # 3. Process, Save to Mongo, and Upload to Drive
+    if downloaded_files:
+        batch_process_images(downloaded_files)
+
 def run_pipeline():
-    """Main Orchestrator: Runs Lab 3, 4, and 5 sequentially."""
     setup_logging("pipeline_run.log")
     print("🚀 Pipeline started! Check pipeline_run.log for real-time progress.")
     
@@ -137,7 +156,8 @@ def run_pipeline():
         process_local_documents()
         process_web_scraping()
         process_ocr()
-        print("✅ Pipeline complete! API, Documents, Web Scraping, and OCR data stored.")
+        process_images()
+        print("✅ Pipeline complete! API, Documents, Web Scraping, OCR, and Image data stored.")
     except Exception as e:
         logging.error(f"Pipeline crashed: {e}")
         print("❌ Pipeline failed. Check the logs.")
