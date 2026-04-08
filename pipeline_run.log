@@ -1,0 +1,448 @@
+2026-03-26 20:24:33,982 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,024 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,030 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,058 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,073 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,102 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,107 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,135 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,165 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,182 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,187 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,214 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,218 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,259 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,276 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,291 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,321 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,339 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,355 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,359 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,363 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,385 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,402 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,407 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,412 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,417 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,448 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,478 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,495 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,512 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:24:34,828 - INFO - Uploading data/raw/api/courses_20260326_202434.json to S3 bucket education-pipeline-bucket...
+2026-03-26 20:24:36,933 - INFO - Upload Successful!
+2026-03-26 20:47:26,839 - INFO - --- Starting API Data Pipeline ---
+2026-03-26 20:47:28,222 - INFO - Processing 30 API courses...
+2026-03-26 20:47:28,233 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,264 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,280 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,299 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,328 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,357 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,372 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,390 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,395 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,399 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,435 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,440 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,444 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,481 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,485 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,490 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,512 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,544 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,560 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,576 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,605 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,622 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,626 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,652 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,667 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,672 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,701 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,731 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,735 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:28,763 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-03-26 20:47:29,382 - INFO - Uploading data/raw/api/courses_20260326_204728.json to S3 bucket education-pipeline-bucket...
+2026-03-26 20:47:31,459 - INFO - Upload Successful!
+2026-03-26 20:47:31,460 - INFO - --- Starting Document Extraction Pipeline ---
+2026-03-26 20:47:31,460 - INFO - Extracting data from: mock_overview.pdf
+2026-03-26 20:47:31,496 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-03-26 20:47:31,496 - INFO - Successfully saved mock_overview.pdf with metadata to MongoDB.
+2026-03-26 20:47:31,496 - INFO - Extracting data from: mock_syllabus.docx
+2026-03-26 20:47:31,573 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-03-26 20:47:31,573 - INFO - Successfully saved mock_syllabus.docx with metadata to MongoDB.
+2026-03-26 20:47:31,574 - INFO - Extracting data from: mock_finances.xlsx
+2026-03-26 20:47:31,650 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-03-26 20:47:31,650 - INFO - Successfully saved mock_finances.xlsx with metadata to MongoDB.
+2026-04-05 19:23:14,587 - INFO - --- Starting API Data Pipeline ---
+2026-04-05 19:23:17,162 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,193 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,198 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,203 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,209 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,238 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,254 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,284 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,315 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,347 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,363 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,368 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,374 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,379 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,410 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,429 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,460 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,503 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,536 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,553 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,558 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,582 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,613 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,644 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,649 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,676 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,707 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,712 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,715 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:17,737 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-05 19:23:18,159 - INFO - Uploading data/raw/api/courses_20260405_192317.json to S3 bucket education-pipeline-bucket...
+2026-04-05 19:23:43,841 - ERROR - S3 Upload failed: Could not connect to the endpoint URL: "http://localhost:4566/education-pipeline-bucket/backups/raw_api_data/courses_20260405_192317.json"
+2026-04-05 19:23:43,841 - INFO - --- Starting Document Extraction Pipeline ---
+2026-04-05 19:23:43,841 - INFO - Extracting data from: mock_overview.pdf
+2026-04-05 19:23:43,903 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-05 19:23:43,904 - INFO - Extracting data from: mock_syllabus.docx
+2026-04-05 19:23:44,027 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-05 19:23:44,028 - INFO - Extracting data from: mock_finances.xlsx
+2026-04-05 19:23:44,062 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-05 19:23:44,062 - INFO - --- Starting Web Scraping Pipeline ---
+2026-04-05 19:23:44,418 - INFO - Scraping static page 1: http://books.toscrape.com/catalogue/page-1.html
+2026-04-05 19:23:45,046 - INFO - Sleeping for 1 seconds to respect server limits...
+2026-04-05 19:23:46,047 - INFO - Scraping static page 2: http://books.toscrape.com/catalogue/page-2.html
+2026-04-05 19:23:46,687 - INFO - Sleeping for 1 seconds to respect server limits...
+2026-04-05 19:23:47,756 - INFO - Successfully saved data to MongoDB collection: web_scraped_data
+2026-04-05 19:23:47,756 - INFO - Starting Playwright dynamic scraper for: http://quotes.toscrape.com/js/
+2026-04-05 19:23:57,610 - INFO - Successfully saved data to MongoDB collection: web_scraped_data
+2026-04-05 19:23:57,611 - INFO - --- Starting OCR Processing Pipeline ---
+2026-04-08 12:03:59,025 - INFO - --- Starting API Data Pipeline ---
+2026-04-08 12:03:59,509 - INFO - Successfully fetched iTunes page 1
+2026-04-08 12:04:00,246 - INFO - Successfully fetched iTunes page 2
+2026-04-08 12:04:00,997 - INFO - Successfully fetched iTunes page 3
+2026-04-08 12:04:01,174 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,196 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,226 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,257 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,289 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,319 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,351 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,383 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,414 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,432 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,460 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,491 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,508 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,538 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,570 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,579 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,603 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,610 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,646 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,665 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,680 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,686 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,709 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,727 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,742 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,786 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,804 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,810 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,835 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:01,864 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:04:02,390 - INFO - Uploading data/raw/api/courses_20260408_120401.json to S3 bucket education-pipeline-bucket...
+2026-04-08 12:04:33,838 - ERROR - S3 Upload failed: Could not connect to the endpoint URL: "http://localhost:4566/education-pipeline-bucket/backups/raw_api_data/courses_20260408_120401.json"
+2026-04-08 12:04:33,839 - INFO - --- Starting Document Extraction Pipeline ---
+2026-04-08 12:04:33,840 - INFO - Extracting data from: mock_overview.pdf
+2026-04-08 12:04:33,906 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-08 12:04:33,908 - INFO - Extracting data from: mock_syllabus.docx
+2026-04-08 12:04:34,075 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-08 12:04:34,077 - INFO - Extracting data from: mock_finances.xlsx
+2026-04-08 12:04:34,123 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-08 12:04:34,123 - INFO - --- Starting Web Scraping Pipeline ---
+2026-04-08 12:04:34,445 - INFO - Scraping static page 1: http://books.toscrape.com/catalogue/page-1.html
+2026-04-08 12:04:35,028 - INFO - Sleeping for 1 seconds to respect server limits...
+2026-04-08 12:04:36,029 - INFO - Scraping static page 2: http://books.toscrape.com/catalogue/page-2.html
+2026-04-08 12:04:36,628 - INFO - Sleeping for 1 seconds to respect server limits...
+2026-04-08 12:04:37,661 - INFO - Successfully saved data to MongoDB collection: web_scraped_data
+2026-04-08 12:04:37,661 - INFO - Starting Playwright dynamic scraper for: http://quotes.toscrape.com/js/
+2026-04-08 12:04:56,971 - INFO - Successfully saved data to MongoDB collection: web_scraped_data
+2026-04-08 12:04:56,972 - INFO - --- Starting OCR Processing Pipeline ---
+2026-04-08 12:04:56,972 - INFO - --- Starting Image Processing Pipeline ---
+2026-04-08 12:13:15,673 - INFO - --- Starting API Data Pipeline ---
+2026-04-08 12:13:16,188 - INFO - Successfully fetched iTunes page 1
+2026-04-08 12:13:16,623 - INFO - Successfully fetched iTunes page 2
+2026-04-08 12:13:17,054 - INFO - Successfully fetched iTunes page 3
+2026-04-08 12:13:17,078 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,123 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,154 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,185 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,216 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,233 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,263 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,282 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,311 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,328 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,333 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,357 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,388 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,404 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,422 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,436 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,452 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,469 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,485 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,515 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,546 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,577 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,608 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,626 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,641 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,671 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,688 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,717 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,733 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:17,764 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:13:18,126 - INFO - Uploading data/raw/api/courses_20260408_121317.json to S3 bucket education-pipeline-bucket...
+2026-04-08 12:13:40,071 - ERROR - S3 Upload failed: Could not connect to the endpoint URL: "http://localhost:4566/education-pipeline-bucket/backups/raw_api_data/courses_20260408_121317.json"
+2026-04-08 12:13:40,071 - INFO - --- Starting Document Extraction Pipeline ---
+2026-04-08 12:13:40,071 - INFO - Extracting data from: mock_overview.pdf
+2026-04-08 12:13:40,120 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-08 12:13:40,121 - INFO - Extracting data from: mock_syllabus.docx
+2026-04-08 12:13:40,212 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-08 12:13:40,212 - INFO - Extracting data from: mock_finances.xlsx
+2026-04-08 12:13:40,258 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-08 12:13:40,258 - INFO - --- Starting Web Scraping Pipeline ---
+2026-04-08 12:13:40,570 - INFO - Scraping static page 1: http://books.toscrape.com/catalogue/page-1.html
+2026-04-08 12:13:41,157 - INFO - Sleeping for 1 seconds to respect server limits...
+2026-04-08 12:13:42,158 - INFO - Scraping static page 2: http://books.toscrape.com/catalogue/page-2.html
+2026-04-08 12:13:42,699 - INFO - Sleeping for 1 seconds to respect server limits...
+2026-04-08 12:13:43,746 - INFO - Successfully saved data to MongoDB collection: web_scraped_data
+2026-04-08 12:13:43,746 - INFO - Starting Playwright dynamic scraper for: http://quotes.toscrape.com/js/
+2026-04-08 12:13:47,037 - INFO - Successfully saved data to MongoDB collection: web_scraped_data
+2026-04-08 12:13:47,038 - INFO - --- Starting OCR Processing Pipeline ---
+2026-04-08 12:13:47,038 - INFO - --- Starting Image Processing Pipeline ---
+2026-04-08 12:13:47,038 - INFO - Extracting EXIF data from sample photo...
+2026-04-08 12:13:47,274 - INFO - Fetching fresh API data to get Image URLs...
+2026-04-08 12:13:47,757 - INFO - Successfully fetched iTunes page 1
+2026-04-08 12:13:48,195 - INFO - Successfully fetched iTunes page 2
+2026-04-08 12:13:48,634 - INFO - Successfully fetched iTunes page 3
+2026-04-08 12:13:49,178 - INFO - Downloaded: data/raw/images\course_img_0.jpg
+2026-04-08 12:13:49,689 - INFO - Downloaded: data/raw/images\course_img_1.jpg
+2026-04-08 12:13:50,302 - INFO - Downloaded: data/raw/images\course_img_2.jpg
+2026-04-08 12:13:50,896 - INFO - Downloaded: data/raw/images\course_img_3.jpg
+2026-04-08 12:13:51,358 - INFO - Downloaded: data/raw/images\course_img_4.jpg
+2026-04-08 12:13:51,844 - INFO - Downloaded: data/raw/images\course_img_5.jpg
+2026-04-08 12:13:52,371 - INFO - Downloaded: data/raw/images\course_img_6.jpg
+2026-04-08 12:13:53,022 - INFO - Downloaded: data/raw/images\course_img_7.jpg
+2026-04-08 12:13:53,577 - INFO - Downloaded: data/raw/images\course_img_8.jpg
+2026-04-08 12:13:54,142 - INFO - Downloaded: data/raw/images\course_img_9.jpg
+2026-04-08 12:13:54,670 - INFO - Downloaded: data/raw/images\course_img_10.jpg
+2026-04-08 12:13:55,209 - INFO - Downloaded: data/raw/images\course_img_11.jpg
+2026-04-08 12:13:55,746 - INFO - Downloaded: data/raw/images\course_img_12.jpg
+2026-04-08 12:13:56,277 - INFO - Downloaded: data/raw/images\course_img_13.jpg
+2026-04-08 12:13:56,743 - INFO - Downloaded: data/raw/images\course_img_14.jpg
+2026-04-08 12:13:57,260 - INFO - Downloaded: data/raw/images\course_img_15.jpg
+2026-04-08 12:13:57,755 - INFO - Downloaded: data/raw/images\course_img_16.jpg
+2026-04-08 12:13:58,294 - INFO - Downloaded: data/raw/images\course_img_17.jpg
+2026-04-08 12:13:58,909 - INFO - Downloaded: data/raw/images\course_img_18.jpg
+2026-04-08 12:13:59,453 - INFO - Downloaded: data/raw/images\course_img_19.jpg
+2026-04-08 12:13:59,960 - INFO - Downloaded: data/raw/images\course_img_20.jpg
+2026-04-08 12:14:00,472 - INFO - Downloaded: data/raw/images\course_img_21.jpg
+2026-04-08 12:14:00,989 - INFO - Downloaded: data/raw/images\course_img_22.jpg
+2026-04-08 12:14:01,680 - INFO - Downloaded: data/raw/images\course_img_23.jpg
+2026-04-08 12:14:02,136 - INFO - Downloaded: data/raw/images\course_img_24.jpg
+2026-04-08 12:14:02,633 - INFO - Downloaded: data/raw/images\course_img_25.jpg
+2026-04-08 12:14:03,137 - INFO - Downloaded: data/raw/images\course_img_26.jpg
+2026-04-08 12:14:03,768 - INFO - Downloaded: data/raw/images\course_img_27.jpg
+2026-04-08 12:14:04,391 - INFO - Downloaded: data/raw/images\course_img_28.jpg
+2026-04-08 12:14:04,998 - INFO - Downloaded: data/raw/images\course_img_29.jpg
+2026-04-08 12:14:05,000 - INFO - Starting batch processing of 30 images...
+2026-04-08 12:14:08,604 - INFO - Successfully saved data to MongoDB collection: processed_image_metadata
+2026-04-08 12:14:08,604 - INFO - Starting Google Drive upload...
+2026-04-08 12:14:08,786 - INFO - Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=1066524238446-ero99hdpm8666bq64tt3kugm0gbqo105.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A63515%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file&state=7NOkPNTsjga9R15Ep17Tv3ccNJEaAA&code_challenge=EdW94fLEfEckXY0jMDQGeA8l8mzN-zwCH-9muW4dCKg&code_challenge_method=S256&access_type=offline
+2026-04-08 12:14:32,371 - INFO - "GET /?state=7NOkPNTsjga9R15Ep17Tv3ccNJEaAA&iss=https://accounts.google.com&code=4/0Aci98E9XKiyJPxq288KPrm7wgnxl8qr7WxwEAAyily7RLGMwQgQTQFaMqSfcl5YFFC6RAQ&scope=https://www.googleapis.com/auth/drive.file HTTP/1.1" 200 65
+2026-04-08 12:14:32,992 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-08 12:14:34,167 - INFO - Created Google Drive folder ID: 1fRI_lV6ycduCjwLPfrPoJCDNFqjLglvr
+2026-04-08 12:14:36,137 - INFO - Uploaded data/processed/webp/course_img_0.webp to Drive.
+2026-04-08 12:14:38,450 - INFO - Uploaded data/processed/webp/course_img_1.webp to Drive.
+2026-04-08 12:14:40,492 - INFO - Uploaded data/processed/webp/course_img_2.webp to Drive.
+2026-04-08 12:14:42,656 - INFO - Uploaded data/processed/webp/course_img_3.webp to Drive.
+2026-04-08 12:14:44,634 - INFO - Uploaded data/processed/webp/course_img_4.webp to Drive.
+2026-04-08 12:14:46,643 - INFO - Uploaded data/processed/webp/course_img_5.webp to Drive.
+2026-04-08 12:14:57,887 - INFO - Uploaded data/processed/webp/course_img_6.webp to Drive.
+2026-04-08 12:15:00,194 - INFO - Uploaded data/processed/webp/course_img_7.webp to Drive.
+2026-04-08 12:15:02,429 - INFO - Uploaded data/processed/webp/course_img_8.webp to Drive.
+2026-04-08 12:15:04,646 - INFO - Uploaded data/processed/webp/course_img_9.webp to Drive.
+2026-04-08 12:15:04,646 - INFO - Batch processing and upload complete.
+2026-04-08 12:19:24,557 - INFO - --- Starting API Data Pipeline ---
+2026-04-08 12:19:25,147 - INFO - Successfully fetched iTunes page 1
+2026-04-08 12:19:25,632 - INFO - Successfully fetched iTunes page 2
+2026-04-08 12:19:26,119 - INFO - Successfully fetched iTunes page 3
+2026-04-08 12:19:26,162 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,193 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,224 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,229 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,234 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,255 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,260 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,302 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,307 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,311 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,348 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,366 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,395 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,427 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,444 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,449 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,454 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,458 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,465 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,469 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,491 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,520 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,534 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,550 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,582 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,587 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,614 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,631 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,647 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,663 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-08 12:19:26,999 - INFO - Uploading data/raw/api/courses_20260408_121926.json to S3 bucket education-pipeline-bucket...
+2026-04-08 12:19:58,589 - ERROR - S3 Upload failed: Could not connect to the endpoint URL: "http://localhost:4566/education-pipeline-bucket/backups/raw_api_data/courses_20260408_121926.json"
+2026-04-08 12:19:58,590 - INFO - --- Starting Document Extraction Pipeline ---
+2026-04-08 12:19:58,590 - INFO - Extracting data from: mock_overview.pdf
+2026-04-08 12:19:58,624 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-08 12:19:58,625 - INFO - Extracting data from: mock_syllabus.docx
+2026-04-08 12:19:58,731 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-08 12:19:58,732 - INFO - Extracting data from: mock_finances.xlsx
+2026-04-08 12:19:58,763 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-08 12:19:58,764 - INFO - --- Starting Web Scraping Pipeline ---
+2026-04-08 12:19:59,132 - INFO - Scraping static page 1: http://books.toscrape.com/catalogue/page-1.html
+2026-04-08 12:20:00,358 - INFO - Sleeping for 1 seconds to respect server limits...
+2026-04-08 12:20:01,358 - INFO - Scraping static page 2: http://books.toscrape.com/catalogue/page-2.html
+2026-04-08 12:20:01,981 - INFO - Sleeping for 1 seconds to respect server limits...
+2026-04-08 12:20:02,998 - INFO - Successfully saved data to MongoDB collection: web_scraped_data
+2026-04-08 12:20:02,998 - INFO - Starting Playwright dynamic scraper for: http://quotes.toscrape.com/js/
+2026-04-08 12:20:06,436 - INFO - Successfully saved data to MongoDB collection: web_scraped_data
+2026-04-08 12:20:06,436 - INFO - --- Starting OCR Processing Pipeline ---
+2026-04-08 12:20:06,437 - INFO - Running OCR on image: data/raw/images\course_img_0.jpg
+2026-04-08 12:20:06,506 - ERROR - OCR failed for image data/raw/images\course_img_0.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,506 - INFO - Running OCR on image: data/raw/images\course_img_1.jpg
+2026-04-08 12:20:06,520 - ERROR - OCR failed for image data/raw/images\course_img_1.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,520 - INFO - Running OCR on image: data/raw/images\course_img_10.jpg
+2026-04-08 12:20:06,533 - ERROR - OCR failed for image data/raw/images\course_img_10.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,533 - INFO - Running OCR on image: data/raw/images\course_img_11.jpg
+2026-04-08 12:20:06,545 - ERROR - OCR failed for image data/raw/images\course_img_11.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,545 - INFO - Running OCR on image: data/raw/images\course_img_12.jpg
+2026-04-08 12:20:06,556 - ERROR - OCR failed for image data/raw/images\course_img_12.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,556 - INFO - Running OCR on image: data/raw/images\course_img_13.jpg
+2026-04-08 12:20:06,568 - ERROR - OCR failed for image data/raw/images\course_img_13.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,569 - INFO - Running OCR on image: data/raw/images\course_img_14.jpg
+2026-04-08 12:20:06,579 - ERROR - OCR failed for image data/raw/images\course_img_14.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,579 - INFO - Running OCR on image: data/raw/images\course_img_15.jpg
+2026-04-08 12:20:06,591 - ERROR - OCR failed for image data/raw/images\course_img_15.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,591 - INFO - Running OCR on image: data/raw/images\course_img_16.jpg
+2026-04-08 12:20:06,603 - ERROR - OCR failed for image data/raw/images\course_img_16.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,603 - INFO - Running OCR on image: data/raw/images\course_img_17.jpg
+2026-04-08 12:20:06,615 - ERROR - OCR failed for image data/raw/images\course_img_17.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,615 - INFO - Running OCR on image: data/raw/images\course_img_18.jpg
+2026-04-08 12:20:06,626 - ERROR - OCR failed for image data/raw/images\course_img_18.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,626 - INFO - Running OCR on image: data/raw/images\course_img_19.jpg
+2026-04-08 12:20:06,637 - ERROR - OCR failed for image data/raw/images\course_img_19.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,637 - INFO - Running OCR on image: data/raw/images\course_img_2.jpg
+2026-04-08 12:20:06,648 - ERROR - OCR failed for image data/raw/images\course_img_2.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,648 - INFO - Running OCR on image: data/raw/images\course_img_20.jpg
+2026-04-08 12:20:06,659 - ERROR - OCR failed for image data/raw/images\course_img_20.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,659 - INFO - Running OCR on image: data/raw/images\course_img_21.jpg
+2026-04-08 12:20:06,669 - ERROR - OCR failed for image data/raw/images\course_img_21.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,669 - INFO - Running OCR on image: data/raw/images\course_img_22.jpg
+2026-04-08 12:20:06,680 - ERROR - OCR failed for image data/raw/images\course_img_22.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,681 - INFO - Running OCR on image: data/raw/images\course_img_23.jpg
+2026-04-08 12:20:06,691 - ERROR - OCR failed for image data/raw/images\course_img_23.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,691 - INFO - Running OCR on image: data/raw/images\course_img_24.jpg
+2026-04-08 12:20:06,701 - ERROR - OCR failed for image data/raw/images\course_img_24.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,702 - INFO - Running OCR on image: data/raw/images\course_img_25.jpg
+2026-04-08 12:20:06,712 - ERROR - OCR failed for image data/raw/images\course_img_25.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,712 - INFO - Running OCR on image: data/raw/images\course_img_26.jpg
+2026-04-08 12:20:06,723 - ERROR - OCR failed for image data/raw/images\course_img_26.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,723 - INFO - Running OCR on image: data/raw/images\course_img_27.jpg
+2026-04-08 12:20:06,733 - ERROR - OCR failed for image data/raw/images\course_img_27.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,733 - INFO - Running OCR on image: data/raw/images\course_img_28.jpg
+2026-04-08 12:20:06,744 - ERROR - OCR failed for image data/raw/images\course_img_28.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,744 - INFO - Running OCR on image: data/raw/images\course_img_29.jpg
+2026-04-08 12:20:06,756 - ERROR - OCR failed for image data/raw/images\course_img_29.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,756 - INFO - Running OCR on image: data/raw/images\course_img_3.jpg
+2026-04-08 12:20:06,767 - ERROR - OCR failed for image data/raw/images\course_img_3.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,767 - INFO - Running OCR on image: data/raw/images\course_img_4.jpg
+2026-04-08 12:20:06,778 - ERROR - OCR failed for image data/raw/images\course_img_4.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,778 - INFO - Running OCR on image: data/raw/images\course_img_5.jpg
+2026-04-08 12:20:06,788 - ERROR - OCR failed for image data/raw/images\course_img_5.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,788 - INFO - Running OCR on image: data/raw/images\course_img_6.jpg
+2026-04-08 12:20:06,799 - ERROR - OCR failed for image data/raw/images\course_img_6.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,800 - INFO - Running OCR on image: data/raw/images\course_img_7.jpg
+2026-04-08 12:20:06,810 - ERROR - OCR failed for image data/raw/images\course_img_7.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,810 - INFO - Running OCR on image: data/raw/images\course_img_8.jpg
+2026-04-08 12:20:06,824 - ERROR - OCR failed for image data/raw/images\course_img_8.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,824 - INFO - Running OCR on image: data/raw/images\course_img_9.jpg
+2026-04-08 12:20:06,834 - ERROR - OCR failed for image data/raw/images\course_img_9.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-08 12:20:06,835 - INFO - --- Starting Image Processing Pipeline ---
+2026-04-08 12:20:06,835 - INFO - Extracting EXIF data from sample photo...
+2026-04-08 12:20:06,837 - INFO - Fetching fresh API data to get Image URLs...
+2026-04-08 12:20:07,484 - INFO - Successfully fetched iTunes page 1
+2026-04-08 12:20:07,987 - INFO - Successfully fetched iTunes page 2
+2026-04-08 12:20:08,417 - INFO - Successfully fetched iTunes page 3
+2026-04-08 12:20:08,970 - INFO - Downloaded: data/raw/images\course_img_0.jpg
+2026-04-08 12:20:09,506 - INFO - Downloaded: data/raw/images\course_img_1.jpg
+2026-04-08 12:20:10,056 - INFO - Downloaded: data/raw/images\course_img_2.jpg
+2026-04-08 12:20:10,650 - INFO - Downloaded: data/raw/images\course_img_3.jpg
+2026-04-08 12:20:11,102 - INFO - Downloaded: data/raw/images\course_img_4.jpg
+2026-04-08 12:20:11,606 - INFO - Downloaded: data/raw/images\course_img_5.jpg
+2026-04-08 12:20:14,520 - INFO - Downloaded: data/raw/images\course_img_6.jpg
+2026-04-08 12:20:15,072 - INFO - Downloaded: data/raw/images\course_img_7.jpg
+2026-04-08 12:20:15,646 - INFO - Downloaded: data/raw/images\course_img_8.jpg
+2026-04-08 12:20:16,184 - INFO - Downloaded: data/raw/images\course_img_9.jpg
+2026-04-08 12:20:16,757 - INFO - Downloaded: data/raw/images\course_img_10.jpg
+2026-04-08 12:20:17,280 - INFO - Downloaded: data/raw/images\course_img_11.jpg
+2026-04-08 12:20:17,825 - INFO - Downloaded: data/raw/images\course_img_12.jpg
+2026-04-08 12:20:18,365 - INFO - Downloaded: data/raw/images\course_img_13.jpg
+2026-04-08 12:20:18,821 - INFO - Downloaded: data/raw/images\course_img_14.jpg
+2026-04-08 12:20:19,299 - INFO - Downloaded: data/raw/images\course_img_15.jpg
+2026-04-08 12:20:19,818 - INFO - Downloaded: data/raw/images\course_img_16.jpg
+2026-04-08 12:20:20,364 - INFO - Downloaded: data/raw/images\course_img_17.jpg
+2026-04-08 12:20:20,930 - INFO - Downloaded: data/raw/images\course_img_18.jpg
+2026-04-08 12:20:21,467 - INFO - Downloaded: data/raw/images\course_img_19.jpg
+2026-04-08 12:20:22,061 - INFO - Downloaded: data/raw/images\course_img_20.jpg
+2026-04-08 12:20:22,583 - INFO - Downloaded: data/raw/images\course_img_21.jpg
+2026-04-08 12:20:23,164 - INFO - Downloaded: data/raw/images\course_img_22.jpg
+2026-04-08 12:20:23,695 - INFO - Downloaded: data/raw/images\course_img_23.jpg
+2026-04-08 12:20:24,154 - INFO - Downloaded: data/raw/images\course_img_24.jpg
+2026-04-08 12:20:24,676 - INFO - Downloaded: data/raw/images\course_img_25.jpg
+2026-04-08 12:20:25,212 - INFO - Downloaded: data/raw/images\course_img_26.jpg
+2026-04-08 12:20:25,764 - INFO - Downloaded: data/raw/images\course_img_27.jpg
+2026-04-08 12:20:26,301 - INFO - Downloaded: data/raw/images\course_img_28.jpg
+2026-04-08 12:20:26,838 - INFO - Downloaded: data/raw/images\course_img_29.jpg
+2026-04-08 12:20:26,839 - INFO - Starting batch processing of 30 images...
+2026-04-08 12:20:30,065 - INFO - Successfully saved data to MongoDB collection: processed_image_metadata
+2026-04-08 12:20:30,065 - INFO - Starting Google Drive upload...
+2026-04-08 12:20:30,104 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-08 12:20:31,243 - INFO - Created Google Drive folder ID: 1Tf_rjyphfUi0qW4F0ajvoQSEItOMnuHS
+2026-04-08 12:20:33,284 - INFO - Uploaded data/processed/webp/course_img_0.webp to Drive.
+2026-04-08 12:20:35,232 - INFO - Uploaded data/processed/webp/course_img_1.webp to Drive.
+2026-04-08 12:20:37,479 - INFO - Uploaded data/processed/webp/course_img_2.webp to Drive.
+2026-04-08 12:20:39,320 - INFO - Uploaded data/processed/webp/course_img_3.webp to Drive.
+2026-04-08 12:20:41,147 - INFO - Uploaded data/processed/webp/course_img_4.webp to Drive.
+2026-04-08 12:20:43,261 - INFO - Uploaded data/processed/webp/course_img_5.webp to Drive.
+2026-04-08 12:20:45,335 - INFO - Uploaded data/processed/webp/course_img_6.webp to Drive.
+2026-04-08 12:20:47,408 - INFO - Uploaded data/processed/webp/course_img_7.webp to Drive.
+2026-04-08 12:20:49,328 - INFO - Uploaded data/processed/webp/course_img_8.webp to Drive.
+2026-04-08 12:20:51,183 - INFO - Uploaded data/processed/webp/course_img_9.webp to Drive.
+2026-04-08 12:20:51,183 - INFO - Batch processing and upload complete.

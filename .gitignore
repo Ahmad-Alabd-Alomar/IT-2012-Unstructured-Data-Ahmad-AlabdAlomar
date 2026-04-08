@@ -10,7 +10,6 @@ __pycache__/
 
 
 data/raw/thumbnails/
-*.log
 token.json
 
 .DS_Store
