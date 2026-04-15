@@ -2,4 +2,6 @@
 
 [Google Drive Link](https://drive.google.com/drive/folders/1D-VKA3y3MAggj5V4xhGMfhhHSurPDLlR?usp=sharing)
 
-![EXIF Terminal Output](image-1.png)
+![EXIF Terminal Output](EXIF_Terminal_Output.png)
+
+![Video Properties and Transcription](Video_Properties_and_Transcription.png)

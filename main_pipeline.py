@@ -15,6 +15,10 @@ from src.ocr.ocr_utils import process_image, process_scanned_pdf
 from src.image_processing.downloader import download_images
 from src.image_processing.batch import batch_process_images
 from src.image_processing.exif_utils import extract_exif
+from src.media_processing.audio_utils import process_audio_files
+from src.media_processing.video_utils import process_video_files
+from src.storage.mongo import save_transcript
+from src.media_processing.transcriber import transcribe_media, transcribe_long_audio_chunked
 
 load_dotenv()
 
@@ -147,6 +151,33 @@ def process_images():
     if downloaded_files:
         batch_process_images(downloaded_files)
 
+# --- LAB 7: Audio/Video Processing Pipeline ---
+def process_media():
+    logging.info("--- Starting Audio and Video Processing Pipeline ---")
+    
+    # 1. Process Audio (Returns short paths, and 1 long path for chunking)
+    raw_audio_to_transcribe, long_audio_path = process_audio_files()
+    
+    # 2. Process Video (Extracts audio)
+    extracted_video_audio = process_video_files()
+    
+    transcripts = []
+
+    # 3. Transcribe short and video audio
+    paths_to_transcribe = raw_audio_to_transcribe + (extracted_video_audio if extracted_video_audio else [])
+    if paths_to_transcribe:
+        transcripts.extend(transcribe_media(paths_to_transcribe))
+        
+    # 4. Transcribe long audio using Chunking Strategy (Task 10)
+    if long_audio_path:
+        chunked_transcript = transcribe_long_audio_chunked(long_audio_path)
+        if chunked_transcript:
+            transcripts.append(chunked_transcript)
+        
+    # 5. Save everything to MongoDB
+    for transcript in transcripts:
+        save_transcript(transcript)
+
 def run_pipeline():
     setup_logging("pipeline_run.log")
     print("🚀 Pipeline started! Check pipeline_run.log for real-time progress.")
@@ -157,6 +188,7 @@ def run_pipeline():
         process_web_scraping()
         process_ocr()
         process_images()
+        process_media()
         print("✅ Pipeline complete! API, Documents, Web Scraping, OCR, and Image data stored.")
     except Exception as e:
         logging.error(f"Pipeline crashed: {e}")
