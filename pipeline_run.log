@@ -446,3 +446,240 @@
 2026-04-08 12:20:49,328 - INFO - Uploaded data/processed/webp/course_img_8.webp to Drive.
 2026-04-08 12:20:51,183 - INFO - Uploaded data/processed/webp/course_img_9.webp to Drive.
 2026-04-08 12:20:51,183 - INFO - Batch processing and upload complete.
+2026-04-15 11:54:12,646 - INFO - --- Starting API Data Pipeline ---
+2026-04-15 11:54:15,358 - INFO - Successfully fetched iTunes page 1
+2026-04-15 11:54:16,034 - INFO - Successfully fetched iTunes page 2
+2026-04-15 11:54:17,950 - INFO - Successfully fetched iTunes page 3
+2026-04-15 11:54:18,024 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,030 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,035 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,054 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,069 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,074 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,101 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,131 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,147 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,166 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,225 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,290 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,334 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,351 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,381 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,398 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,414 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,419 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,423 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,427 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,460 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,476 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,480 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,485 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,506 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,511 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,552 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,567 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,584 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:18,599 - INFO - Successfully saved data to MongoDB collection: online_courses
+2026-04-15 11:54:19,015 - INFO - Uploading data/raw/api/courses_20260415_115418.json to S3 bucket education-pipeline-bucket...
+2026-04-15 11:54:50,419 - ERROR - S3 Upload failed: Could not connect to the endpoint URL: "http://localhost:4566/education-pipeline-bucket/backups/raw_api_data/courses_20260415_115418.json"
+2026-04-15 11:54:50,419 - INFO - --- Starting Document Extraction Pipeline ---
+2026-04-15 11:54:50,420 - INFO - Extracting data from: mock_overview.pdf
+2026-04-15 11:54:50,482 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-15 11:54:50,483 - INFO - Extracting data from: mock_syllabus.docx
+2026-04-15 11:54:50,606 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-15 11:54:50,606 - INFO - Extracting data from: mock_finances.xlsx
+2026-04-15 11:54:50,655 - INFO - Successfully saved data to MongoDB collection: extracted_documents
+2026-04-15 11:54:50,655 - INFO - --- Starting Web Scraping Pipeline ---
+2026-04-15 11:54:51,004 - INFO - Scraping static page 1: http://books.toscrape.com/catalogue/page-1.html
+2026-04-15 11:54:51,661 - INFO - Sleeping for 1 seconds to respect server limits...
+2026-04-15 11:54:52,663 - INFO - Scraping static page 2: http://books.toscrape.com/catalogue/page-2.html
+2026-04-15 11:54:53,247 - INFO - Sleeping for 1 seconds to respect server limits...
+2026-04-15 11:54:54,266 - INFO - Successfully saved data to MongoDB collection: web_scraped_data
+2026-04-15 11:54:54,267 - INFO - Starting Playwright dynamic scraper for: http://quotes.toscrape.com/js/
+2026-04-15 11:55:05,323 - INFO - Successfully saved data to MongoDB collection: web_scraped_data
+2026-04-15 11:55:05,323 - INFO - --- Starting OCR Processing Pipeline ---
+2026-04-15 11:55:05,323 - INFO - Running OCR on image: data/raw/images\course_img_0.jpg
+2026-04-15 11:55:05,643 - ERROR - OCR failed for image data/raw/images\course_img_0.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,643 - INFO - Running OCR on image: data/raw/images\course_img_1.jpg
+2026-04-15 11:55:05,654 - ERROR - OCR failed for image data/raw/images\course_img_1.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,654 - INFO - Running OCR on image: data/raw/images\course_img_10.jpg
+2026-04-15 11:55:05,665 - ERROR - OCR failed for image data/raw/images\course_img_10.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,665 - INFO - Running OCR on image: data/raw/images\course_img_11.jpg
+2026-04-15 11:55:05,675 - ERROR - OCR failed for image data/raw/images\course_img_11.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,675 - INFO - Running OCR on image: data/raw/images\course_img_12.jpg
+2026-04-15 11:55:05,686 - ERROR - OCR failed for image data/raw/images\course_img_12.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,686 - INFO - Running OCR on image: data/raw/images\course_img_13.jpg
+2026-04-15 11:55:05,698 - ERROR - OCR failed for image data/raw/images\course_img_13.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,698 - INFO - Running OCR on image: data/raw/images\course_img_14.jpg
+2026-04-15 11:55:05,707 - ERROR - OCR failed for image data/raw/images\course_img_14.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,707 - INFO - Running OCR on image: data/raw/images\course_img_15.jpg
+2026-04-15 11:55:05,717 - ERROR - OCR failed for image data/raw/images\course_img_15.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,717 - INFO - Running OCR on image: data/raw/images\course_img_16.jpg
+2026-04-15 11:55:05,728 - ERROR - OCR failed for image data/raw/images\course_img_16.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,728 - INFO - Running OCR on image: data/raw/images\course_img_17.jpg
+2026-04-15 11:55:05,738 - ERROR - OCR failed for image data/raw/images\course_img_17.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,738 - INFO - Running OCR on image: data/raw/images\course_img_18.jpg
+2026-04-15 11:55:05,749 - ERROR - OCR failed for image data/raw/images\course_img_18.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,749 - INFO - Running OCR on image: data/raw/images\course_img_19.jpg
+2026-04-15 11:55:05,760 - ERROR - OCR failed for image data/raw/images\course_img_19.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,760 - INFO - Running OCR on image: data/raw/images\course_img_2.jpg
+2026-04-15 11:55:05,771 - ERROR - OCR failed for image data/raw/images\course_img_2.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,771 - INFO - Running OCR on image: data/raw/images\course_img_20.jpg
+2026-04-15 11:55:05,781 - ERROR - OCR failed for image data/raw/images\course_img_20.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,781 - INFO - Running OCR on image: data/raw/images\course_img_21.jpg
+2026-04-15 11:55:05,792 - ERROR - OCR failed for image data/raw/images\course_img_21.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,792 - INFO - Running OCR on image: data/raw/images\course_img_22.jpg
+2026-04-15 11:55:05,803 - ERROR - OCR failed for image data/raw/images\course_img_22.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,803 - INFO - Running OCR on image: data/raw/images\course_img_23.jpg
+2026-04-15 11:55:05,815 - ERROR - OCR failed for image data/raw/images\course_img_23.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,815 - INFO - Running OCR on image: data/raw/images\course_img_24.jpg
+2026-04-15 11:55:05,825 - ERROR - OCR failed for image data/raw/images\course_img_24.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,825 - INFO - Running OCR on image: data/raw/images\course_img_25.jpg
+2026-04-15 11:55:05,836 - ERROR - OCR failed for image data/raw/images\course_img_25.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,836 - INFO - Running OCR on image: data/raw/images\course_img_26.jpg
+2026-04-15 11:55:05,846 - ERROR - OCR failed for image data/raw/images\course_img_26.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,847 - INFO - Running OCR on image: data/raw/images\course_img_27.jpg
+2026-04-15 11:55:05,856 - ERROR - OCR failed for image data/raw/images\course_img_27.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,856 - INFO - Running OCR on image: data/raw/images\course_img_28.jpg
+2026-04-15 11:55:05,868 - ERROR - OCR failed for image data/raw/images\course_img_28.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,868 - INFO - Running OCR on image: data/raw/images\course_img_29.jpg
+2026-04-15 11:55:05,879 - ERROR - OCR failed for image data/raw/images\course_img_29.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,879 - INFO - Running OCR on image: data/raw/images\course_img_3.jpg
+2026-04-15 11:55:05,890 - ERROR - OCR failed for image data/raw/images\course_img_3.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,891 - INFO - Running OCR on image: data/raw/images\course_img_4.jpg
+2026-04-15 11:55:05,900 - ERROR - OCR failed for image data/raw/images\course_img_4.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,900 - INFO - Running OCR on image: data/raw/images\course_img_5.jpg
+2026-04-15 11:55:05,910 - ERROR - OCR failed for image data/raw/images\course_img_5.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,911 - INFO - Running OCR on image: data/raw/images\course_img_6.jpg
+2026-04-15 11:55:05,921 - ERROR - OCR failed for image data/raw/images\course_img_6.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,921 - INFO - Running OCR on image: data/raw/images\course_img_7.jpg
+2026-04-15 11:55:05,931 - ERROR - OCR failed for image data/raw/images\course_img_7.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,931 - INFO - Running OCR on image: data/raw/images\course_img_8.jpg
+2026-04-15 11:55:05,942 - ERROR - OCR failed for image data/raw/images\course_img_8.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,942 - INFO - Running OCR on image: data/raw/images\course_img_9.jpg
+2026-04-15 11:55:05,954 - ERROR - OCR failed for image data/raw/images\course_img_9.jpg: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-04-15 11:55:05,955 - INFO - --- Starting Image Processing Pipeline ---
+2026-04-15 11:55:05,955 - INFO - Extracting EXIF data from sample photo...
+2026-04-15 11:55:05,963 - INFO - Fetching fresh API data to get Image URLs...
+2026-04-15 11:55:06,434 - INFO - Successfully fetched iTunes page 1
+2026-04-15 11:55:06,818 - INFO - Successfully fetched iTunes page 2
+2026-04-15 11:55:07,228 - INFO - Successfully fetched iTunes page 3
+2026-04-15 11:55:07,812 - INFO - Downloaded: data/raw/images\course_img_0.jpg
+2026-04-15 11:55:08,280 - INFO - Downloaded: data/raw/images\course_img_1.jpg
+2026-04-15 11:55:08,700 - INFO - Downloaded: data/raw/images\course_img_2.jpg
+2026-04-15 11:55:09,151 - INFO - Downloaded: data/raw/images\course_img_3.jpg
+2026-04-15 11:55:09,698 - INFO - Downloaded: data/raw/images\course_img_4.jpg
+2026-04-15 11:55:10,190 - INFO - Downloaded: data/raw/images\course_img_5.jpg
+2026-04-15 11:55:10,663 - INFO - Downloaded: data/raw/images\course_img_6.jpg
+2026-04-15 11:55:11,098 - INFO - Downloaded: data/raw/images\course_img_7.jpg
+2026-04-15 11:55:11,518 - INFO - Downloaded: data/raw/images\course_img_8.jpg
+2026-04-15 11:55:12,003 - INFO - Downloaded: data/raw/images\course_img_9.jpg
+2026-04-15 11:55:12,490 - INFO - Downloaded: data/raw/images\course_img_10.jpg
+2026-04-15 11:55:12,947 - INFO - Downloaded: data/raw/images\course_img_11.jpg
+2026-04-15 11:55:13,421 - INFO - Downloaded: data/raw/images\course_img_12.jpg
+2026-04-15 11:55:13,981 - INFO - Downloaded: data/raw/images\course_img_13.jpg
+2026-04-15 11:55:14,503 - INFO - Downloaded: data/raw/images\course_img_14.jpg
+2026-04-15 11:55:15,415 - INFO - Downloaded: data/raw/images\course_img_15.jpg
+2026-04-15 11:55:15,918 - INFO - Downloaded: data/raw/images\course_img_16.jpg
+2026-04-15 11:55:16,366 - INFO - Downloaded: data/raw/images\course_img_17.jpg
+2026-04-15 11:55:16,831 - INFO - Downloaded: data/raw/images\course_img_18.jpg
+2026-04-15 11:55:17,297 - INFO - Downloaded: data/raw/images\course_img_19.jpg
+2026-04-15 11:55:17,727 - INFO - Downloaded: data/raw/images\course_img_20.jpg
+2026-04-15 11:55:18,215 - INFO - Downloaded: data/raw/images\course_img_21.jpg
+2026-04-15 11:55:18,648 - INFO - Downloaded: data/raw/images\course_img_22.jpg
+2026-04-15 11:55:19,156 - INFO - Downloaded: data/raw/images\course_img_23.jpg
+2026-04-15 11:55:19,561 - INFO - Downloaded: data/raw/images\course_img_24.jpg
+2026-04-15 11:55:20,164 - INFO - Downloaded: data/raw/images\course_img_25.jpg
+2026-04-15 11:55:20,872 - INFO - Downloaded: data/raw/images\course_img_26.jpg
+2026-04-15 11:55:21,346 - INFO - Downloaded: data/raw/images\course_img_27.jpg
+2026-04-15 11:55:21,804 - INFO - Downloaded: data/raw/images\course_img_28.jpg
+2026-04-15 11:55:22,511 - INFO - Downloaded: data/raw/images\course_img_29.jpg
+2026-04-15 11:55:22,512 - INFO - Starting batch processing of 30 images...
+2026-04-15 11:55:25,399 - INFO - Successfully saved data to MongoDB collection: processed_image_metadata
+2026-04-15 11:55:25,399 - INFO - Starting Google Drive upload...
+2026-04-15 11:55:25,578 - INFO - Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=1066524238446-ero99hdpm8666bq64tt3kugm0gbqo105.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A49885%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file&state=nq4rf8RDt93k1YJK6jWwm2aiHHgZyt&code_challenge=pyO70xc4r0h79eAZ85Yg1GZvg2LGZRys4bdUb_yi3U8&code_challenge_method=S256&access_type=offline
+2026-04-15 11:55:34,266 - INFO - "GET /?state=nq4rf8RDt93k1YJK6jWwm2aiHHgZyt&iss=https://accounts.google.com&code=4/0Aci98E-BdHhPcvisTbX5_vGgj_uQmw0i_j1OxLT9xP8s27Co9A-RN-rqJv6FS2ICtXvimA&scope=https://www.googleapis.com/auth/drive.file HTTP/1.1" 200 65
+2026-04-15 11:55:34,955 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-15 11:55:36,640 - INFO - Created Google Drive folder ID: 1JkEEjALfnWMRLPG9nYnY7YQEUkbygjG1
+2026-04-15 11:55:39,137 - INFO - Uploaded data/processed/webp/course_img_0.webp to Drive.
+2026-04-15 11:55:41,938 - INFO - Uploaded data/processed/webp/course_img_1.webp to Drive.
+2026-04-15 11:55:43,995 - INFO - Uploaded data/processed/webp/course_img_2.webp to Drive.
+2026-04-15 11:55:45,995 - INFO - Uploaded data/processed/webp/course_img_3.webp to Drive.
+2026-04-15 11:55:48,042 - INFO - Uploaded data/processed/webp/course_img_4.webp to Drive.
+2026-04-15 11:55:50,336 - INFO - Uploaded data/processed/webp/course_img_5.webp to Drive.
+2026-04-15 11:55:52,356 - INFO - Uploaded data/processed/webp/course_img_6.webp to Drive.
+2026-04-15 11:55:54,425 - INFO - Uploaded data/processed/webp/course_img_7.webp to Drive.
+2026-04-15 11:55:56,470 - INFO - Uploaded data/processed/webp/course_img_8.webp to Drive.
+2026-04-15 11:55:58,759 - INFO - Uploaded data/processed/webp/course_img_9.webp to Drive.
+2026-04-15 11:55:58,760 - INFO - Batch processing and upload complete.
+2026-04-15 11:55:58,760 - INFO - --- Starting Audio and Video Processing Pipeline ---
+2026-04-15 11:55:58,760 - INFO - --- Processing Audio Files ---
+2026-04-15 11:56:00,541 - INFO - Loaded Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3: Duration=192.401s, Channels=2, FrameRate=44100Hz
+2026-04-15 11:56:00,966 - INFO - Loaded Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY].mp3: Duration=205.822s, Channels=2, FrameRate=44100Hz
+2026-04-15 11:56:01,399 - INFO - Loaded Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY].mp3: Duration=219.684s, Channels=2, FrameRate=44100Hz
+2026-04-15 11:56:01,400 - INFO - Trimmed audio saved to data/processed/audio\trimmed_Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3.wav
+2026-04-15 11:56:03,845 - INFO - Converted audio saved to data/processed/audio\converted_Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3
+2026-04-15 11:56:04,980 - INFO - Concatenated & effect audio saved to data/processed/audio\concatenated_with_effects.wav
+2026-04-15 11:56:04,999 - INFO - --- Processing Video Files ---
+2026-04-15 11:56:05,307 - INFO - Video Inception _ The Dream Sequence _ HBO Max.mp4: Duration=192.4s, FPS=23.976023976023978, Res=[640, 360]
+2026-04-15 11:56:07,342 - INFO - Extracted audio saved to data/processed/video\extracted_audio_Inception _ The Dream Sequence _ HBO Max.mp3
+2026-04-15 11:56:10,298 - INFO - Extracted keyframes every 5s
+2026-04-15 11:56:10,477 - INFO - Video Interstellar - Christopher Nolan - Official Warner Bros..mp4: Duration=205.82s, FPS=25.0, Res=[640, 360]
+2026-04-15 11:56:12,729 - INFO - Extracted audio saved to data/processed/video\extracted_audio_Interstellar - Christopher Nolan - Official Warner Bros..mp3
+2026-04-15 11:56:15,727 - INFO - Extracted keyframes every 5s
+2026-04-15 11:56:15,956 - INFO - Video Interstellar – Building A Black Hole – Official Warner Bros..mp4: Duration=219.68s, FPS=23.976023976023978, Res=[640, 360]
+2026-04-15 11:56:18,572 - INFO - Extracted audio saved to data/processed/video\extracted_audio_Interstellar – Building A Black Hole – Official Warner Bros..mp3
+2026-04-15 11:56:21,800 - INFO - Extracted keyframes every 5s
+2026-04-15 11:56:21,808 - INFO - --- Starting Faster-Whisper Transcription ---
+2026-04-15 11:56:24,886 - INFO - HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-04-15 11:56:25,033 - INFO - HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-base/resolve/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-15 11:56:25,068 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-base/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/config.json "HTTP/1.1 200 OK"
+2026-04-15 11:56:25,142 - INFO - HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-base/resolve/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-15 11:56:25,143 - INFO - HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-base/resolve/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/vocabulary.txt "HTTP/1.1 307 Temporary Redirect"
+2026-04-15 11:56:25,144 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-base/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/config.json "HTTP/1.1 200 OK"
+2026-04-15 11:56:25,145 - INFO - HTTP Request: HEAD https://huggingface.co/Systran/faster-whisper-base/resolve/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/model.bin "HTTP/1.1 302 Found"
+2026-04-15 11:56:25,144 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-15 11:56:25,152 - WARNING - C:\Users\aalom\OneDrive\Desktop\unstructured Data2\IT-2012-Unstructured-Data-Ahmad-AlabdAlomar\.venv\Lib\site-packages\huggingface_hub\file_download.py:138: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\aalom\.cache\huggingface\hub\models--Systran--faster-whisper-base. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+
+2026-04-15 11:56:25,178 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-base/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/tokenizer.json "HTTP/1.1 200 OK"
+2026-04-15 11:56:25,178 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-base/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/vocabulary.txt "HTTP/1.1 200 OK"
+2026-04-15 11:56:25,210 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-base/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/vocabulary.txt "HTTP/1.1 200 OK"
+2026-04-15 11:56:25,211 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Systran/faster-whisper-base/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66/tokenizer.json "HTTP/1.1 200 OK"
+2026-04-15 11:56:25,507 - INFO - HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/xet-read-token/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66 "HTTP/1.1 200 OK"
+2026-04-15 11:57:22,071 - INFO - Transcribing short file: data/raw/audio\Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3
+2026-04-15 11:57:22,509 - INFO - Processing audio with duration 03:12.401
+2026-04-15 11:57:23,401 - INFO - Detected language 'en' with probability 0.99
+2026-04-15 11:57:40,495 - INFO - Transcribing short file: data/processed/video\extracted_audio_Inception _ The Dream Sequence _ HBO Max.mp3
+2026-04-15 11:57:40,811 - INFO - Processing audio with duration 03:12.400
+2026-04-15 11:57:41,708 - INFO - Detected language 'en' with probability 0.99
+2026-04-15 11:57:57,124 - INFO - Transcribing short file: data/processed/video\extracted_audio_Interstellar - Christopher Nolan - Official Warner Bros..mp3
+2026-04-15 11:57:57,463 - INFO - Processing audio with duration 03:25.820
+2026-04-15 11:57:58,277 - INFO - Detected language 'en' with probability 0.94
+2026-04-15 11:58:18,777 - INFO - Transcribing short file: data/processed/video\extracted_audio_Interstellar – Building A Black Hole – Official Warner Bros..mp3
+2026-04-15 11:58:19,133 - INFO - Processing audio with duration 03:39.680
+2026-04-15 11:58:19,914 - INFO - Detected language 'en' with probability 0.95
+2026-04-15 11:58:37,844 - INFO - --- Chunking and transcribing long audio: data/raw/audio\Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY].mp3 ---
+2026-04-15 11:58:38,461 - INFO - HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-04-15 11:58:39,333 - INFO - Processing audio with duration 00:30.000
+2026-04-15 11:58:39,940 - INFO - Detected language 'en' with probability 0.95
+2026-04-15 11:58:42,174 - INFO - Processing audio with duration 00:30.000
+2026-04-15 11:58:42,828 - INFO - Detected language 'en' with probability 1.00
+2026-04-15 11:58:45,420 - INFO - Processing audio with duration 00:30.000
+2026-04-15 11:58:46,111 - INFO - Detected language 'en' with probability 0.95
+2026-04-15 11:58:48,969 - INFO - Processing audio with duration 00:30.000
+2026-04-15 11:58:49,585 - INFO - Detected language 'en' with probability 0.99
+2026-04-15 11:58:52,850 - INFO - Processing audio with duration 00:30.000
+2026-04-15 11:58:53,478 - INFO - Detected language 'en' with probability 0.99
+2026-04-15 11:58:56,321 - INFO - Processing audio with duration 00:30.000
+2026-04-15 11:58:57,036 - INFO - Detected language 'en' with probability 0.98
+2026-04-15 11:59:00,286 - INFO - Processing audio with duration 00:30.000
+2026-04-15 11:59:00,928 - INFO - Detected language 'en' with probability 0.99
+2026-04-15 11:59:03,089 - INFO - Processing audio with duration 00:09.684
+2026-04-15 11:59:03,853 - INFO - Detected language 'cy' with probability 0.34
+2026-04-15 11:59:23,975 - INFO - Successfully saved transcript for Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3 to MongoDB.
+2026-04-15 11:59:23,999 - INFO - Successfully saved transcript for extracted_audio_Inception _ The Dream Sequence _ HBO Max.mp3 to MongoDB.
+2026-04-15 11:59:24,005 - INFO - Successfully saved transcript for extracted_audio_Interstellar - Christopher Nolan - Official Warner Bros..mp3 to MongoDB.
+2026-04-15 11:59:24,031 - INFO - Successfully saved transcript for extracted_audio_Interstellar – Building A Black Hole – Official Warner Bros..mp3 to MongoDB.
+2026-04-15 11:59:24,037 - INFO - Successfully saved transcript for Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY].mp3 to MongoDB.
