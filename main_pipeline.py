@@ -19,6 +19,13 @@ from src.media_processing.audio_utils import process_audio_files
 from src.media_processing.video_utils import process_video_files
 from src.storage.mongo import save_transcript
 from src.media_processing.transcriber import transcribe_media, transcribe_long_audio_chunked
+from src.analytics.numpy_ops import run_numpy_operations
+from src.analytics.data_loader import load_mongo_to_csv, process_large_csv_in_chunks, optimize_dataframe
+from src.analytics.explorer import run_eda
+from src.analytics.selector import demonstrate_selection
+from src.analytics.regex_ops import clean_text_with_regex
+from src.analytics.quality_report import generate_quality_report
+import pandas as pd
 
 load_dotenv()
 
@@ -178,21 +185,59 @@ def process_media():
     for transcript in transcripts:
         save_transcript(transcript)
 
+# --- LAB 8: NumPy, pandas, and Data Exploration ---
+def process_analytics():
+    logging.info("--- Starting Data Analytics Pipeline (Lab 8) ---")
+    
+    # 1. NumPy Operations
+    run_numpy_operations()
+    
+    # 2. Extract Data from Mongo to CSV
+    csv_path = load_mongo_to_csv(collection_name="online_courses")
+    
+    if csv_path:
+        # 3. Chunk Processing 
+        process_large_csv_in_chunks(csv_path)
+        
+        # Load full DF for remaining tasks
+        df = pd.read_csv(csv_path)
+        
+        # 4. Memory Optimization 
+        df = optimize_dataframe(df)
+        
+        # 5. Exploratory Data Analysis 
+        run_eda(csv_path)
+        
+        # 6. Selection & Filtering 
+        demonstrate_selection(df)
+        
+        # 7. Regex Cleaning 
+        df = clean_text_with_regex(df)
+        
+        # 8. Quality Report & Heatmap 
+        generate_quality_report(df)
+        
+        logging.info("Analytics pipeline completed successfully.")
+
 def run_pipeline():
     setup_logging("pipeline_run.log")
     print("🚀 Pipeline started! Check pipeline_run.log for real-time progress.")
     
     try:
-        process_api_data()
-        process_local_documents()
-        process_web_scraping()
-        process_ocr()
-        process_images()
-        process_media()
-        print("✅ Pipeline complete! API, Documents, Web Scraping, OCR, and Image data stored.")
+        # process_api_data()
+        # process_local_documents()
+        # process_web_scraping()
+        # process_ocr()
+        # process_images()
+        # process_media()
+
+        # Lab 8
+        process_analytics()
+        
+        print("✅ Pipeline complete! All data analyzed and quality reports generated.")
     except Exception as e:
         logging.error(f"Pipeline crashed: {e}")
-        print("❌ Pipeline failed. Check the logs.")
+        print(f"❌ Pipeline failed: {e}")
 
 if __name__ == "__main__":
     run_pipeline()
