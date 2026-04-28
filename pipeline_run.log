@@ -683,3 +683,18 @@ To support symlinks on Windows, you either need to activate Developer Mode or to
 2026-04-15 11:59:24,005 - INFO - Successfully saved transcript for extracted_audio_Interstellar - Christopher Nolan - Official Warner Bros..mp3 to MongoDB.
 2026-04-15 11:59:24,031 - INFO - Successfully saved transcript for extracted_audio_Interstellar – Building A Black Hole – Official Warner Bros..mp3 to MongoDB.
 2026-04-15 11:59:24,037 - INFO - Successfully saved transcript for Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY].mp3 to MongoDB.
+2026-04-24 16:16:20,671 - INFO - --- Starting Data Analytics Pipeline (Lab 8) ---
+2026-04-24 16:16:20,672 - INFO - --- Starting NumPy Operations ---
+2026-04-24 16:16:20,673 - INFO - NumPy operations completed successfully.
+2026-04-24 16:16:20,673 - INFO - Extracting online_courses from MongoDB to CSV...
+2026-04-24 16:16:20,771 - INFO - Exported 210 records to data/raw/analytics_export.csv
+2026-04-24 16:16:20,771 - INFO - --- Processing CSV in Chunks ---
+2026-04-24 16:16:20,810 - INFO - Memory Optimization: 0.0744 MB -> 0.0072 MB
+2026-04-24 16:16:20,810 - INFO - --- Starting Exploratory Data Analysis ---
+2026-04-24 16:16:21,643 - INFO - Saved EDA chart to data/processed/analytics\course_id_distribution.png
+2026-04-24 16:16:21,653 - INFO - --- Demonstrating pandas Selection Methods ---
+2026-04-24 16:16:21,656 - INFO - Selection demonstration successful.
+2026-04-24 16:16:21,656 - INFO - --- Running Regex Text Cleaning ---
+2026-04-24 16:16:21,660 - INFO - --- Generating Data Quality Report ---
+2026-04-24 16:16:21,876 - INFO - Quality report and heatmap generated in data/processed/analytics
+2026-04-24 16:16:21,877 - INFO - Analytics pipeline completed successfully.

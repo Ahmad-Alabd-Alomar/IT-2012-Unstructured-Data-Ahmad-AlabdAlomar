@@ -1,0 +1,7 @@
+Column,Missing Values,Missing %,Unique Values,Dtype
+course_id,0,0.0,14,int32
+title,42,20.0,14,category
+price,0,0.0,1,float32
+instructor,0,0.0,14,category
+image_url,0,0.0,14,category
+cleaned_text,0,0.0,14,str
