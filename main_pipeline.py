@@ -25,6 +25,7 @@ from src.analytics.explorer import run_eda
 from src.analytics.selector import demonstrate_selection
 from src.analytics.regex_ops import clean_text_with_regex
 from src.analytics.quality_report import generate_quality_report
+from src.cleaning.clean_pipeline import run_cleaning_pipeline
 import pandas as pd
 
 load_dotenv()
@@ -234,7 +235,10 @@ def run_pipeline():
         # Lab 8
         process_analytics()
         
-        print("✅ Pipeline complete! All data analyzed and quality reports generated.")
+        # Lab 9: New Cleaning Step
+        run_cleaning_pipeline()
+        
+        print("✅ Pipeline complete! Data analyzed and cleaned.")
     except Exception as e:
         logging.error(f"Pipeline crashed: {e}")
         print(f"❌ Pipeline failed: {e}")

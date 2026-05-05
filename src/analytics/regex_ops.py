@@ -24,4 +24,19 @@ def clean_text_with_regex(df):
     print(f"Sample Cleaned Titles: \n{df[f'{col}_clean'].head(3)}")
     print(f"Total rows mentioning 'Python': {python_mentions}")
     
+def validate_and_clean_regex(df):
+    """Detects, validates, and cleans complex text patterns."""
+    df = df.copy()
+    
+    if 'language' in df.columns:
+        # Detect invalid language codes (assuming 2 letter codes like 'en')
+        invalid_langs = df[~df['language'].str.match(r'^[a-z]{2}$', na=False)]
+        print(f"Found {len(invalid_langs)} invalid language codes.")
+        
+    if 'overview' in df.columns:
+        # Flag overviews that are too short (< 20 characters)
+        df['short_overview'] = df['overview'].str.len() < 20
+        
+    logging.info("Regex validation and cleaning completed.")
+    
     return df
