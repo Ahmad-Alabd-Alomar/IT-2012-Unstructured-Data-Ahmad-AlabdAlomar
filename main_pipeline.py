@@ -26,7 +26,9 @@ from src.analytics.selector import demonstrate_selection
 from src.analytics.regex_ops import clean_text_with_regex
 from src.analytics.quality_report import generate_quality_report
 from src.cleaning.clean_pipeline import run_cleaning_pipeline
+from src.analytics.insight_reporter import generate_report
 import pandas as pd
+
 
 load_dotenv()
 
@@ -238,6 +240,12 @@ def run_pipeline():
         # Lab 9: New Cleaning Step
         run_cleaning_pipeline()
         
+        if __name__ == "__main__":
+            print("Starting full data pipeline...")
+            print("Generating automated analytics report...")
+            generate_report()
+            print("Pipeline complete!")
+            
         print("✅ Pipeline complete! Data analyzed and cleaned.")
     except Exception as e:
         logging.error(f"Pipeline crashed: {e}")
