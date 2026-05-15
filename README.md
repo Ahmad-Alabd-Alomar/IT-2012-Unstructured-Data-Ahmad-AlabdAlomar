@@ -21,3 +21,7 @@ This lab involved building a robust, automated cleaning pipeline to resolve the 
 - **Missing Values:** Handled via median imputation for numeric data and placeholders for text.
 - **Strings:** Normalized whitespace and case formatting across all text columns.
 - **Validation:** Integrated `pytest` and `assert` statements to ensure 0% duplicate rate and data integrity.
+
+## Lab 11
+
+![Lab 11 Output](Lab_11_output.png)

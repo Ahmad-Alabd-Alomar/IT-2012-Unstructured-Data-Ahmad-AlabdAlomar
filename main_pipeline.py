@@ -1,3 +1,7 @@
+import locale
+locale.setlocale(locale.LC_ALL, 'C')
+from src.embeddings.search_engine import SearchEngine
+import pandas as pd
 import os
 import json
 import logging
@@ -222,34 +226,39 @@ def process_analytics():
         
         logging.info("Analytics pipeline completed successfully.")
 
+# --- LAB 11: Embeddings and Vector Search ---
+def process_embeddings():
+    logging.info("--- Starting Embeddings and Vector Search Pipeline (Lab 11) ---")
+    try:
+        from src.embeddings.search_engine import SearchEngine
+        engine = SearchEngine()
+        count = engine.store.collection.count()
+        print(f"\n? Vector Database initialized with {count} courses.")
+        
+        # Quick demonstration for your logs
+        sample = engine.hybrid_search("Python lessons", n_results=1)
+        print(f"?? Vector Search Test: {sample}")
+    except Exception as e:
+        logging.error(f"Embeddings pipeline failed: {e}")
+        print(f"? Embeddings failure: {e}")
+
 def run_pipeline():
     setup_logging("pipeline_run.log")
-    print("🚀 Pipeline started! Check pipeline_run.log for real-time progress.")
+    print("?? Pipeline started! Check pipeline_run.log for real-time progress.")
     
     try:
-        # process_api_data()
-        # process_local_documents()
-        # process_web_scraping()
-        # process_ocr()
-        # process_images()
-        # process_media()
-
-        # Lab 8
         process_analytics()
-        
-        # Lab 9: New Cleaning Step
         run_cleaning_pipeline()
+        process_embeddings() # Lab 11 call
         
-        if __name__ == "__main__":
-            print("Starting full data pipeline...")
-            print("Generating automated analytics report...")
-            generate_report()
-            print("Pipeline complete!")
-            
-        print("✅ Pipeline complete! Data analyzed and cleaned.")
+        print("\n? Pipeline complete! Data analyzed, cleaned, and indexed.")
+        print("Generating automated analytics report...")
+        generate_report()
+        
     except Exception as e:
         logging.error(f"Pipeline crashed: {e}")
-        print(f"❌ Pipeline failed: {e}")
+        print(f"? Pipeline failed: {e}")
 
 if __name__ == "__main__":
     run_pipeline()
+
