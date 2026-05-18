@@ -1,11 +1,23 @@
 import os
 import logging
-from moviepy.editor import VideoFileClip
+
+try:
+    from moviepy import VideoFileClip
+except ImportError:
+    from moviepy.editor import VideoFileClip
 
 def process_video_files(video_dir="data/raw/video", output_dir="data/processed/video", keyframe_dir="data/processed/keyframes"):
     """Lab 7: Inspects video, extracts audio, and saves keyframes."""
     logging.info("--- Processing Video Files ---")
     
+    # Ensure directories exist
+    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(keyframe_dir, exist_ok=True)
+
+    if not os.path.exists(video_dir):
+        logging.warning(f"Directory not found: {video_dir}")
+        return []
+
     files = [f for f in os.listdir(video_dir) if f.lower().endswith(('.mp4', '.avi', '.mkv', '.mov'))]
     if not files:
         logging.warning("No video files found.")
@@ -18,7 +30,7 @@ def process_video_files(video_dir="data/raw/video", output_dir="data/processed/v
         try:
             clip = VideoFileClip(path)
             
-            # 1. Inspect Properties (Print for ReadMe screenshot)
+            # 1. Inspect Properties
             print(f"\n--- Video Properties: {file} ---")
             print(f"Duration: {clip.duration} seconds")
             print(f"FPS: {clip.fps}")
